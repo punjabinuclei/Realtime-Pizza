@@ -1,0 +1,439 @@
+@import './variable.scss';
+
+body{
+    font-family: 'Lato', sans-serif;
+    -webkit-font-smoothing:antialiased;
+    color: $dark;
+}
+
+
+
+// NAV BAR________________________________________________________________________________
+
+.nav-link{
+    color: $dark;
+
+    transition: $smooth;
+
+    &:hover{
+        color: $primary;
+    }
+}
+
+nav li:last-child a{
+    background: $primary;
+
+    &:hover{
+        background: $primary-hover;
+    }
+    border-radius: 50%;
+}
+
+
+.nav-item{
+    padding-left: 0.75rem;
+}
+
+
+
+
+// HERO SECTION_______________________________________________________________________________________________
+
+.hero{
+    background: $secondary;
+    padding: 3rem;
+    
+}
+
+.left{
+    position: relative;
+    top: 8.5rem;
+}
+
+.left h1{
+    font-size: 3.3rem;
+    font-weight: bolder;
+}
+
+.left h6{
+    font-weight: bold;
+}
+
+
+
+.left .btn-ordernow{
+    background: $primary;
+    color: $secondary;
+    border-radius: 18px;
+    &:hover{
+        background: $primary-hover;
+        transition: $smooth;
+    }
+}
+
+.right img
+{
+    
+height: 28rem;
+width: 34rem;
+position: relative;
+left: 12rem;
+
+}
+
+
+
+
+// SECTION ALLL PiZAS
+
+.pizza-menu-heading{
+    padding: 2rem;
+    font-weight: 700;
+    font-size: 2rem;
+
+
+}
+
+
+
+
+.pizza-menu img{
+    height: 8rem;
+    width: 10rem;
+    position: relative;
+    left: 3rem;
+
+}
+
+
+
+.menu-cards{
+    text-align: center;
+}
+
+
+.card-title-pizza-name{
+font-size: 1rem;
+
+}
+
+.card-title-pizza-size{
+    font-size: 0.6rem;
+    border:$secondary 1px solid;
+display: inline-block;
+background:$secondary;
+text-transform: uppercase;
+
+    margin-bottom: 1rem;
+    
+    }
+    
+
+
+.card-text{
+    text-align: left;
+    font-weight: bolder;
+}
+
+.pizza-add-btn
+{
+    float: right;
+    border-color: $primary;
+    background: none;
+    border-radius: 12px;
+    color: $primary;
+
+    &:hover{
+        background: $primary;
+        color: black;
+    }
+
+    padding: 0 2rem;
+    transition: $smooth;
+}
+
+
+
+
+
+// CART_PAGE2-------------------------------------------------------------------------------
+
+.cart{
+    background: $secondary;
+}
+.emptycart{
+    padding-top: 3rem;
+}
+
+.cart-top{
+    text-align: center;
+}
+
+.cart-heading{
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.cart-para{
+    color: $grey;
+    font-size: larger;
+    white-space: pre-line;
+    margin-top: -1.5rem;   
+}
+
+.cart-bottom{
+    padding-bottom: 3rem;
+}
+
+.cart-bottom img{
+    height: 25rem;
+    width: 25rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.btn-goback{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: $primary;
+    color: $secondary;
+    border-radius: 18px;
+    &:hover{
+        background: $primary-hover;
+        transition: $smooth;
+    }
+
+    margin-top: 2rem;
+    
+
+}
+
+// CART PAGE_02
+
+
+
+// part-1
+.cart-full-page{
+    padding-top: 3rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    
+}
+
+
+.image-cart-black{
+    height: 2.5rem;
+    width: 2.5rem;
+
+}
+
+.part-01-cart-full{
+    border-bottom: black 1px solid;
+}
+
+.order-summary-heading{
+    font-size: 2rem;
+    font-weight: bolder;
+    padding-left: 2rem;
+}
+
+
+
+
+
+
+// part-2
+
+.part-02-cart-full{
+    padding: 2rem 0;
+    border-bottom:1px solid black ;
+}
+
+.pizza-image-cart-full{
+    height: 10rem;
+    width: 10rem;
+}
+
+.pizza-name{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    padding-top: 2rem;
+}
+
+.pizza-size{
+    font-size: 1.3rem;
+    color: $grey;
+}
+
+.part-02-cart-full .quantity
+{
+font-size: 1.5rem;
+color: $grey;
+padding-top: 2rem;
+
+}
+
+.part-02-cart-full .price{
+    font-size: 1.5rem;
+    padding-top: 2rem;
+    font-weight: bolder;
+}
+
+// part-03
+.part-03-cart-full{
+    padding: 1.5rem;
+}
+
+.part-03-cart-full .Amount{
+    justify-content: right;
+}
+
+.part-03-cart-full .total-amount{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    padding-right: 1rem;
+}
+
+.part-03-cart-full .total-amount-rs{
+    font-size: 2rem;
+    color: $primary;
+    font-weight: bolder;
+
+}
+
+
+
+
+.part-03-cart-full .btn-ordernow{
+    background: $primary;
+    color: $secondary;
+    border-radius: 18px;
+    &:hover{
+        background: $primary-hover;
+        transition: $smooth;
+    }
+margin: 1rem 0;
+}
+
+.part-03-cart-full .form-address{
+    justify-content: right;
+    padding:2rem 0;
+}
+
+
+
+
+
+// SIGNUP PAGE
+
+.login-page{
+    background: $secondary;
+    display: grid;
+    height: 100vh;
+    place-items:center;
+    box-sizing: border-box;
+}
+
+  .main_div{
+    width: 365px;
+    background: $pure;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    margin-top: -80px;
+    
+  }
+
+
+  .main_div label{
+      padding-left: 0.5rem;
+      font-weight: bolder;
+      font-size: larger;
+      
+
+  }
+
+  .email-label{
+    padding-top: 1rem;
+      }
+     
+
+
+  .pwd-label{
+padding-top: 1rem;
+  }
+  form {
+    margin-top: 25px;
+  }
+  form .input_box{
+    height: 40px;
+    width: 100%;
+    position: relative;
+    margin-top: 15px;
+  }
+
+  .input_box input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 17px;
+    transition: all 0.3s ease;
+  }
+
+.input_box ::placeholder{
+    color: $grey;
+}
+  .input_box input:focus{
+    border-color:$primary;
+  }
+  form .option_div{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .option_div .check_box{
+    display: flex;
+    align-items: center;
+  }
+  .option_div span{
+    margin-left: 5px;
+    font-size: 16px;
+    color: #333;
+  }
+  .option_div .forget_div a{
+    font-size: 16px;
+    color:$primary;
+  }
+  .button input{
+    padding-left: 0;
+    background: $primary;
+    color: $pure;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s linear;
+  }
+  .button input:hover{
+    background: $primary-hover;
+  }
+  form .sign_up{
+    text-align: center;
+    margin-top: 25px;
+  }
+  .sign_up a{
+    color: $primary;
+  }
+  form a{
+    text-decoration: none;
+  }
+  form a:hover{
+    text-decoration: underline;
+  }
+  

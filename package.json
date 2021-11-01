@@ -1,0 +1,27 @@
+{
+  "name": "realtime-pizza",
+  "version": "1.0.0",
+  "description": "This is a real time pizza ordering app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node express.js",
+    "dev": "nodemon express.js",
+    "development": "mix",
+    "watch": "npx mix watch"
+  },
+  "author": "Gurpreet Singh",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.1",
+    "nodemon": "^2.0.13"
+  },
+  "devDependencies": {
+    "laravel-mix": "^6.0.34",
+    "resolve-url-loader": "^4.0.0",
+    "sass": "^1.43.2",
+    "sass-loader": "^12.1.0"
+  }
+}

@@ -1,0 +1,29 @@
+[+] CREATE DIRECTORY STRUCTURE
+
+-[public]-> 1.[css]    - (app.css)
+            2.[js]     - (app.js)
+            3.[images]
+
+ -[app]-> 1.[http] - [middlewares]
+                   - [controllers]
+          2.[models]
+          3.[config]
+
+ -[resources]-> 1.[js]    - (app.js)         
+                2.[scss]  - (app.scss)
+                3.[views]
+
+ -[routes]->  1.[web.js]
+              2.[api.js]
+                             
+
+_____________________________________________________________________________________________________________________
+
+
+[-] CREATE NPM PROJECT AND INSTALL ALL DEPENDANCIES
+
+->Depandancies
+  -express
+  -ejs
+  -express-ejs-layouts
+
